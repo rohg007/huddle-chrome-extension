@@ -1,0 +1,31 @@
+{
+    "name": "Huddle01",
+    "description": "Chrome Extension for Huddle01",
+    "version": "1.0",
+    "manifest_version": 3,
+    "action": {
+        "default_popup": "index.html",
+        "default_icon": {
+            "32": "/images/32.png",
+            "48": "/images/48.png",
+            "128": "/images/128.png" 
+        }
+    },
+    "permissions": ["storage", "activeTab", "scripting", "identity", "identity.email"],
+    "icons": {
+        "32": "/images/32.png",
+        "48": "/images/48.png",
+        "128": "/images/128.png"
+    },
+    "oauth2": {
+        "client_id": "99789589928-7ndhsqanirtccmokb2pe9265a69vbots.apps.googleusercontent.com",
+        "scopes": [
+            "profile email",
+            "https://www.googleapis.com/auth/calendar"
+        ]
+    },
+    "content_security_policy": {
+        "extension_pages": "script-src 'self'; object-src 'self'"
+    }, 
+    "key": "MIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDoNz3E1zY9f/BKLLncLYvWuz7dWJX3LmgLOyBMjULcg4ShEOuNTBh//s02o601YObGzTTfA2p+qpNXfhjaOP28tOfQ9HgO0sdQGBfJr3WnVyzup3TzrbN1h06WuQU5r9E2oU7mtl3Nam8C6zbblvXHTl2ZwDR5mO3f7TwsjlwhzaYoVq2QN3o5Y30Q/gd9uxyLPtyt3JM97SP4RLEpqgrxHMLwy4d9OSB/gYZKf4IhEcfzD0yZqX0gB8P85wRnOUKDQVFY7R7Y1UsYbCCEpOuxnsSH7bAgcEJmBSIoofW3nEYNhxJZVxJD2Jjudz35znZIuM4Ol/pH6uUxqwucEBRtAgMBAAECggEAAqgVIRIcOP5kc5jI5Iux2JpKSRJ5HruNbal2wGFyVR79DrGonDR1aEt0Mg6TzfNGmJoi43VAy+OsLVlQM/jocDb6mvGdCQBgztoDtac395rf9Pf99sazMaJDZCaIOIV6JX+ZbTrDXnT8AaLKvR7gP3A2Umq4Pvbgq8nlQRY82BciXhfSq/eGSvAtjk1SuUzpran7pdjog51VwnE2JWNzaJDG6ETSWXhL/apSKAeJ5aWpc5ES5XiYPt67yQ9qaK/i+xFdv1aJhAzYL0ozy6EGdV0u+wRuSL5aZ6ryBafbIxj7p9hZ4WHptBJM7PT1WEcDDFF1VfZaJqoggX4RqDr+wQKBgQD0dxTNy73O0JpS9oB0N0HyrjKoGiiP5PpKUafrrRHEBlP+OSFUyi+ZwMnnUruEHq50psGtrTDsnU1VWNM9whpI9tHjC+QwBDHldNLU52dp1G66cLYSYV1sqicZZwEexF7JiHhnhQCuk2Ap0WLTNgLnz8HZI1vVH8eJ+myGtcE1wQKBgQDzLDLYaastFipkwPzBae/otMmERwd1d+avupjQjLH0c7oCls7HIRqcsiXiSLUUOa6qi4w0Huw9uMT2xy16+rkqj9EP/eSIiZFOND2AmJtKPva6uJTQTm87IvM5dqMLYM2/KR7PHSLjDfC1tI0Z2MH4YQ+ot8hw881A4jLGA4kBrQKBgQDlS2Qp+vXXK/Xz5t1pJAMpOpas8YwmG2Ffn+NevIAzWrQheTh4LQQktJ0r6X+UVqrPIzH6Ur3W0Vwdtyi7fnnlAgyvZxHqr6SVUdQGed2Xd/c7zEgaSVS1fYsa2nBEiW9WnDhC8I9JL1Y9IvYMoVZsU4PAxNd3uU0Rb9+nIodMgQKBgDXEsR1vB/15KDiM/5ZYsUZ4KxLHjduofmae0MlUQsj1icymweP/6t14+q11PCzTsE5fesnPiJcBMvQKCIFnzOefUy/BCPYzzOBI5sx3cebR00ZoJ+eDYE7oJHWxSM3sQrIhCoHrRFqGK5JR8N0lM4aTF55LvNNU5S6SlX15LKMlAoGAGW5/TtDef2XSdP0crODOV57+Kem73IzvP7wA7L81sL8hOYHPnEIOt0iuGEM6gtkFl1S5jCiUqFJwveCiglh8bhiiGl2r/LL03e5ado2EYqTiEDV2ezAc2jT+C6RpWNlPIAOJWslCPKZq+qE3YgAP9lNpYEdLoIu6QFKsPZepDOQ="
+  }
